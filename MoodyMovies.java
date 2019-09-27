@@ -18,16 +18,7 @@ class MoodyMovies
     }
 
     public static void genre(String mood) {
-      /* Mood to Genre:
-      Sad – Drama
-      Disgust – Musical
-      Anger – Family
-      Anticipation – Thriller
-      Fear – Sport
-      Enjoyment – Thriller
-      Trust – Western
-      Surprise – Film-Noir
-      */
+
       switch (mood){
 
         case "Sad":
