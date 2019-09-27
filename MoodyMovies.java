@@ -1,3 +1,4 @@
+import org.jsoup.Jsoup;
 
 import java.util.Scanner;  // Import the Scanner class
 
@@ -55,8 +56,6 @@ class MoodyMovies
         break;
       }
       imdbURL(mood);
-      System.out.println(mood);
-
     }
 
 }
