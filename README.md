@@ -1,6 +1,7 @@
 # MoodyMovies
 
-## Recommend movies based on emotion
+## Recommend movies based on emotion 
+Project idea from - https://www.geeksforgeeks.org 
 
 Emotion to Genre:<br/>
 Sad –> Drama<br/>
