@@ -1,15 +1,19 @@
-import org.jsoup.Jsoup;
+//import org.jsoup.Jsoup;
 
 import java.util.Scanner;  // Import the Scanner class
 
 class MoodyMovies
 {
+//	Map<String, String> dictionary = new HashMap<String, String>();
+//	dictionary.put("key", "value");
+//	String value = dictionary.get("key");
 
     public static void main(String args[])
     {
       Scanner input = new Scanner(System.in); //scanner object
       System.out.print("What's your current mood?: ");
       String mood = input.next(); //store the input value
+      input.close();
       genre(mood);
     }
     public static void imdbURL(String genre){
